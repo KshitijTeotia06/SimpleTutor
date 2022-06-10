@@ -5,6 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import Typing from "../elements/Typing"
 
 const propTypes = {
   ...SectionProps.types
@@ -61,18 +62,21 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Simple <span className="text-color-primary">Tutor</span>
+              Our Courses Teach  <br />
+              <span className="text-color-primary">
+                <Typing />
+              </span>
             </h1>
-            <div className="container-xs">
+            <div className="container-m">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Our organization is going to be offering free Alegebra 1 and 2, Java programming, and Biology classes in this 7 week summer camp
+              Simple Tutor is a non-profit organization dedicated to serving their community and improving lives of those around them. Our organization offers free classes in a 7 week summer camp. Our courses are taught by high-level instructors.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="primary" wideMobile href="">
                     Register
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button tag="a" color="dark" wideMobile href="">
                     Our Team
                     </Button>
                 </ButtonGroup>

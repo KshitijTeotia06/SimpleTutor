@@ -86,6 +86,11 @@ const Header = ({
             bottomDivider && 'has-bottom-divider'
           )}>
           <Logo />
+
+          <h1 className="reveal-from-bottom" data-reveal-delay="200" style = {{fontSize: 40, marginBottom: 50}}>
+              Simple <span className="text-color-primary">Tutor</span>
+            </h1>
+          
           {!hideNav &&
             <>
               <button
@@ -112,7 +117,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      {/* <Link to= "#0" onClick={closeMenu}>Contact Us</Link> */}
+                      {/* <Link to= "#0" onClick={closeMenu} className = "header-nav-left" style = {{alignItems: "left"}}>Simple Tutor</Link> */}
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +125,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Contact Us</Link>
+                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={() => window.location = 'mailto:simpletutornp@gmail.com'}>Contact Us</Link>
                       </li>
                     </ul>}
                 </div>
