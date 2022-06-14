@@ -22,7 +22,7 @@ const Home = () => {
                 <div className="flex flex-wrap -m-4 text-center float-center" style = {{overflow: "hidden"}}>
                   <div className="w-1/3 p-4" style = {{float: "left"}}>
                     <h2 className="text-3xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={1250} redraw={true}>
+                      <CountUp end={512} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
@@ -36,7 +36,7 @@ const Home = () => {
 
                   <div className="w-1/3 p-4" style = {{float: "left", marginRight: 200, marginLeft: 200}}>
                     <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={6} redraw={true}>
+                      <CountUp end={8} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
@@ -50,7 +50,7 @@ const Home = () => {
 
                   <div className="w-1/3 p-4" style = {{float: "left"}}>
                     <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={500} redraw={true}>
+                      <CountUp end={11} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />

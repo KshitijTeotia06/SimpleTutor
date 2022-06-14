@@ -76,7 +76,7 @@ const Hero = ({
                   <Button tag="a" color="primary" wideMobile href="">
                     Register
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="">
+                  <Button tag="a" color="dark" wideMobile href="/#about">
                     Our Team
                     </Button>
                 </ButtonGroup>

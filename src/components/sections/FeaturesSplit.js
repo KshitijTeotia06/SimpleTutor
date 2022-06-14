@@ -61,19 +61,19 @@ const FeaturesSplit = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className="center-content" id = "about"/>
           <div className={splitClasses}>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Founder
+                  Founder / President / AMC 8 Instructor
                   </div>
                 <h3 className="mt-0 mb-12">
                   Nitish Omprakash
                   </h3>
                 <p className="m-0">
-                Description
+                Founder and instructor for the AMC 8 Prep class at Simple Tutor. Nitish is going into Junior year of highschool at Evergreen Valley High. He has 3 years of teaching experience, from founding simple tutor summer of 2020, and teaching private classes at other organizations. He has a great interest in mathematics, and is here to share his passion with the community. Holding a score of 22 out of 25 on the AMC 8, he can’t wait to teach students how to tackle the exam this year. He is also an avid mountain biker, and competitive soccer player for the school’s team.  
                   </p>
               </div>
               <div className={
@@ -83,7 +83,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/nitish.jpg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,13 +93,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Co-Founder
-                  </div>
+                  Co-Founder / Algebra 2 Instructor
+                </div>
                 <h3 className="mt-0 mb-12">
                   Aniket Gupta
-                  </h3>
+                </h3>
                 <p className="m-0">
-                Description
+                Co-founder and Algebra 2 instructor, Aniket is an 11th grader at Silver Creek High School. He has 2 years of Java coding experience as well as a year of teaching Scratch programming language to kids. He also has more experience in his high school Computer Science club in which he volunteered teaching Java and also participated in a hack-a-thon this past year. He has participated in many math competitions in middle school. He likes to play video games with his friends, go biking, play the clarinet, and loves to play tennis.
                   </p>
               </div>
               <div className={
@@ -109,7 +109,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/aniket.jpg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
@@ -125,7 +125,7 @@ const FeaturesSplit = ({
                   Sanjith Raman
                   </h3>
                 <p className="m-0">
-                    Description
+                Co-founder and former English teacher, Sanjith is an 11th grader at Evergreen Valley High School. He has a year of experience as a volunteer teaching math to 6th grade students and over 100 volunteer hours in 2020. He has participated in several math and English competitions throughout middle school and has a passion for both subjects. He likes to go biking, play video games with friends, and play basketball.
                   </p>
               </div>
               <div className={
@@ -135,7 +135,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/sanju.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -172,13 +172,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Head of Software Development
+                Co-Founder / Head of Software Development
                   </div>
                 <h3 className="mt-0 mb-12">
                   Kshitij Teotia
                   </h3>
                 <p className="m-0">
-                    Description
+                    Head of Software Devolpment and Creator of Website, Kshitij Teotia is a 11th grader at Evergreen Valley High School. He is experienced in various computer science topics and mathematical concepts. He is an AIME qualifier and is experienced in math olympiad related topics. He designs websites for many non-profits and is fluent in full-stack webdesign. 
                   </p>
               </div>
               <div className={
@@ -188,7 +188,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/kshitij.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -198,13 +198,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Teacher
-                  </div>
+                  Co-Founder / Algebra 1 instructor
+                </div>
                 <h3 className="mt-0 mb-12">
                 Saurav Rekapalli
                   </h3>
                 <p className="m-0">
-                    Description
+                Co-founder and Algebra 1 instructor, Saurav Rekapalli is a 11th grader at Evergreen Valley High School. He is an experienced teacher, and is qualified in the field of mathematics. Saurav excels in his highschool classes and competes in many math competitions. He is a block-chain enthusiast, musician, and entrepreneur. He loves to bike, practice carnatic music, and spend time with his friends and family. 
                   </p>
               </div>
               <div className={
@@ -214,7 +214,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/saurav.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
