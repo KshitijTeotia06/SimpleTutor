@@ -123,7 +123,7 @@ const Header = ({
                   </ul>
                   {!hideSignin &&
                     <ul 
-                      className="list-reset header-nav-right"
+                      className="list-reset header-nav-right" 
                     >
                       <li>
                         <Button tag="a" className="button button-primary button-wide-mobile button-sm" href="/#contact">Contact Us</Button>  

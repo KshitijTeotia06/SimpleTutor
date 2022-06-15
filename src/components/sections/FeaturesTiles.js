@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'View Our Course Selection Below',
-    paragraph: 'Simple Tutor has various tutors with advanced knowledge in numerous subjects. We have diversed our specalities and mainly focus on mathematics / computer science. Please view the specific courses we teach below.'
+    paragraph: 'Simple Tutor has various tutors with advanced knowledge in numerous subjects. We have diversed our specalities and mainly focus on mathematics / computer science. Please view the specific courses we teach below. View more information about our courses by clicking the register button above.'
   };
 
   return (
