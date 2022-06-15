@@ -7,7 +7,8 @@ import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
-import Typing from "../components/elements/Typing"
+import Typing from "../components/elements/Typing";
+import Contact from "../components/sections/Contact";
 
 const Home = () => {
   const [num, setNum] = React.useState(100);
@@ -75,6 +76,7 @@ const Home = () => {
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Testimonial topDivider />
       <Cta split />
+      <Contact />
     </>
   );
 }

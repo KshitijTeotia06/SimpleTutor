@@ -125,7 +125,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={() => window.location = 'mailto:simpletutornp@gmail.com'}>Contact Us</Link>
+                        <Link to="/#contact" className="button button-primary button-wide-mobile button-sm" href="/#contact">Contact Us</Link>  
                       </li>
                     </ul>}
                 </div>
