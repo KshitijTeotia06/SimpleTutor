@@ -221,6 +221,31 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Co-Founder / Head of Speech and Debate
+                </div>
+                <h3 className="mt-0 mb-12">
+                Barath Muthusamy
+                  </h3>
+                <p className="m-0">
+                Co-founder and Head of Speech and Debate at Simple Tutor, Barath Muthusamy is an 11th grader at Archbishop Mitty High School. He has multiple summers of experience as a volunteer, teaching math to 4th - 5th grade students and through his running program, Evergreen Run Club. He has over 50 volunteer hours in 2021 - 2022. He has participated in several Speech and Debate competitions throughout High School and has a passion for both forms of speaking. He likes to go Mountain Biking, run XC and Track, and code.                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/saurav.jpg')}
+                  alt="Features split 02"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
