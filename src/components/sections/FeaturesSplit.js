@@ -224,13 +224,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Co-Founder / Head of Speech and Debate
+                  Co-Founder / Algebra 1 instructor
                 </div>
                 <h3 className="mt-0 mb-12">
-                Barath Muthusamy
+                Neil Gadagkar
                   </h3>
                 <p className="m-0">
-                Co-founder and Head of Speech and Debate at Simple Tutor, Barath Muthusamy is an 11th grader at Archbishop Mitty High School. He has multiple summers of experience as a volunteer, teaching math to 4th - 5th grade students and through his running program, Evergreen Run Club. He has over 50 volunteer hours in 2021 - 2022. He has participated in several Speech and Debate competitions throughout High School and has a passion for both forms of speaking. He likes to go Mountain Biking, run XC and Track, and code.                  </p>
+                Neil is a junior at Archbishop Mitty High School who enjoys coding his own games in python and participating in math competitions in his free time. He loves serving his community by working in soup kitchens over the weekend as well as making blankets and scarves for distribution at local shelters. Neil is very fond of tutoring and loves to inspire and educate young members of his community in the fields of math and computer science. Apart from this, he is an avid mountain biker and fisherman who loves spending time in nature.
+                </p>
               </div>
               <div className={
                 classNames(
@@ -239,7 +240,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/Barath.jpg')}
+                  src={require('./../../assets/images/neil.jpeg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
