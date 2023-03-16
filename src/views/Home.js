@@ -23,7 +23,7 @@ const Home = () => {
                 <div className="flex flex-wrap -m-4 text-center float-center" style = {{overflow: "hidden"}}>
                   <div className="w-1/3 p-4" style = {{float: "left"}}>
                     <h2 className="text-3xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={35} redraw={true}>
+                      <CountUp end={512} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
@@ -32,12 +32,12 @@ const Home = () => {
                       </CountUp>
                       +
                     </h2>
-                    <p className="leading-relaxed">Competitions</p>
+                    <p className="leading-relaxed">Students Helped</p>
                   </div>
 
                   <div className="w-1/3 p-4" style = {{float: "left", marginRight: 200, marginLeft: 200}}>
                     <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={125} redraw={true}>
+                      <CountUp end={8} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
@@ -46,12 +46,12 @@ const Home = () => {
                       </CountUp>
                       +
                     </h2>
-                    <p className="leading-relaxed">Members</p>
+                    <p className="leading-relaxed">Volunteers</p>
                   </div>
 
                   <div className="w-1/3 p-4" style = {{float: "left"}}>
                     <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={5} redraw={true}>
+                      <CountUp end={11} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
@@ -60,7 +60,7 @@ const Home = () => {
                       </CountUp>
                       +
                     </h2>
-                    <p className="leading-relaxed">Teams</p>
+                    <p className="leading-relaxed">Courses Taught</p>
                   </div>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Home = () => {
             <div style = {{display: 'flex',
     alignItems: 'center',
     justifyContent: 'center'}}>
-        {/* <iframe style = {{width: 800, height: 500}}src="https://calendar.google.com/calendar/embed?src=simpletutornp%40gmail.com&ctz=America%2FLos_Angeles"></iframe> */}
+        <iframe style = {{width: 800, height: 500}}src="https://calendar.google.com/calendar/embed?src=simpletutornp%40gmail.com&ctz=America%2FLos_Angeles"></iframe>
       </div>
 
        <FeaturesTiles />

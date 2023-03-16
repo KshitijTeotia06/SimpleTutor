@@ -62,19 +62,19 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              EVHS Robotics  <br />
+              Our Courses Teach  <br />
               <span className="text-color-primary">
                 <Typing />
               </span>
             </h1>
             <div className="container-m">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              EVHS Robotics is located in San Jose, CA and is dedicated to inspiring students in their high school to discover and foster their passion for STEM through practical and hands on experience by competing in FIRST Robotics.
+              Simple Tutor is a non-profit organization dedicated to serving their community and improving lives of those around them. Our organization offers free classes in a 7 week summer camp. Our courses are taught by high-level instructors.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://forms.gle/qvDocZdmjvtJm73w9">
-                    Contact Us
+                    Register
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="/#about">
                     Our Team

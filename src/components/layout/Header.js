@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Button from '../elements/Button';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -86,6 +87,11 @@ const Header = ({
             bottomDivider && 'has-bottom-divider'
           )}>
           <Logo />
+
+          <h1 className="reveal-from-bottom" data-reveal-delay="200" style = {{fontSize: 40, marginBottom: 50}}>
+              Simple <span className="text-color-primary">Tutor</span>
+            </h1>
+          
           {!hideNav &&
             <>
               <button
@@ -111,30 +117,16 @@ const Header = ({
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                   
                     <li>
-                      <Link to="Prototypes" onClick={closeMenu}>Prototypes</Link>
+                      {/* <Link to= "#0" onClick={closeMenu} className = "header-nav-left" style = {{alignItems: "left"}}>Simple Tutor</Link> */}
                     </li>
-                    <li>
-                      <Link to="Artemis" onClick={closeMenu}>Artemis</Link>
-                    </li>
-                    <li>
-                      <Link to="Kronos" onClick={closeMenu}>Kronos</Link>
-                    </li>
-                    <li>
-                      <Link to="Athena" onClick={closeMenu}>Athena</Link>
-                    </li>
-                    <li>
-                      <Link to="Poseidon" onClick={closeMenu}>Poseidon</Link>
-                    </li>
-                    
                   </ul>
                   {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
+                    <ul 
+                      className="list-reset header-nav-right" 
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu} style = {{color: "white"}}>Join Us</Link>
+                        <Button tag="a" className="button button-primary button-wide-mobile button-sm" href="/#contact">Contact Us</Button>  
                       </li>
                     </ul>}
                 </div>

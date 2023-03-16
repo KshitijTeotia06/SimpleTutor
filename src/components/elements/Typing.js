@@ -7,11 +7,10 @@ const Element = styled.span`
 `;
 
 const words = [
-  '2854 - The Prototypes',
-  '18715 - Artemis',
-  '20791 - Kronos',
-  '9657 - Athena',
-  '16898 - Poseidon'
+  'critical thinking.',
+  'logical reasoning.',
+  'real world applications.',
+  'inventful skills.',
 ];
 
 class Typing extends React.Component {
