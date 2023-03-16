@@ -67,13 +67,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Founder / President / AMC 8 Instructor
+                  President
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Nitish Omprakash
+                  Tiffany Dang
                   </h3>
                 <p className="m-0">
-                Founder and instructor for the AMC 8 Prep class at Simple Tutor. Nitish is going into Junior year of highschool at Evergreen Valley High. He has 3 years of teaching experience, from founding simple tutor summer of 2020, and teaching private classes at other organizations. He has a great interest in mathematics, and is here to share his passion with the community. Holding a score of 22 out of 25 on the AMC 8, he can’t wait to teach students how to tackle the exam this year. He is also an avid mountain biker, and competitive soccer player for the school’s team.  
+                  President of EVHS Robotics & Founder of FTC Artemis.
                   </p>
               </div>
               <div className={
@@ -83,7 +83,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/nitish.jpg')}
+                  src={require('./../../assets/images/tiffany.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,10 +93,10 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Co-Founder / Algebra 2 Instructor
+                  Vice President
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Aniket Gupta
+                  Kshitij Teotia
                 </h3>
                 <p className="m-0">
                 Co-founder and Algebra 2 instructor, Aniket is an 11th grader at Silver Creek High School. He has 2 years of Java coding experience as well as a year of teaching Scratch programming language to kids. He also has more experience in his high school Computer Science club in which he volunteered teaching Java and also participated in a hack-a-thon this past year. He has participated in many math competitions in middle school. He likes to play video games with his friends, go biking, play the clarinet, and loves to play tennis.
@@ -109,7 +109,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/aniket.jpg')}
+                  src={require('./../../assets/images/kshitij.jpeg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
@@ -119,10 +119,10 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Co-Founder
+                  Treasurer
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Sanjith Raman
+                  Priyanka Karunakaran
                   </h3>
                 <p className="m-0">
                 Co-founder and former English teacher, Sanjith is an 11th grader at Evergreen Valley High School. He has a year of experience as a volunteer teaching math to 6th grade students and over 100 volunteer hours in 2020. He has participated in several math and English competitions throughout middle school and has a passion for both subjects. He likes to go biking, play video games with friends, and play basketball.
@@ -135,7 +135,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/sanju.jpg')}
+                  src={require('./../../assets/images/priyanka.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -172,10 +172,10 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                Co-Founder / Head of Software Development
+                Secretary
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Kshitij Teotia
+                  Krish Iyengar
                   </h3>
                 <p className="m-0">
                     Head of Software Devolpment and Creator of Website, Kshitij Teotia is a 11th grader at Evergreen Valley High School. He is experienced in various computer science topics and mathematical concepts. He is an AIME qualifier and is experienced in math olympiad related topics. He designs websites for many non-profits and is fluent in full-stack webdesign. 
@@ -188,7 +188,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/kshitij.png')}
+                  src={require('./../../assets/images/krish.jpeg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -196,6 +196,31 @@ const FeaturesSplit = ({
             </div>
 
             <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                Public Relations
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Alex Li
+                  </h3>
+                <p className="m-0">
+                    Head of Software Devolpment and Creator of Website, Kshitij Teotia is a 11th grader at Evergreen Valley High School. He is experienced in various computer science topics and mathematical concepts. He is an AIME qualifier and is experienced in math olympiad related topics. He designs websites for many non-profits and is fluent in full-stack webdesign. 
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/alex.png')}
+                  alt="Features split 02"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+            {/* <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Co-Founder / Algebra 1 instructor
@@ -219,8 +244,8 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} />
               </div>
-            </div>
-
+            </div> */}
+{/* 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
@@ -245,7 +270,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} />
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>

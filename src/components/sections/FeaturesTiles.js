@@ -12,6 +12,7 @@ const defaultProps = {
   ...SectionTilesProps.defaults
 }
 const FeaturesTiles = ({
+  feature,
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -52,11 +53,24 @@ const FeaturesTiles = ({
     <section
       {...props}
       className={outerClasses}
+      
     >
+      {feature}
+      {/* {console.log("TEEST" + {features.feati[0][0]})} */}
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" style = {{marginTop: 50}}/>
           <div className={tilesClasses}>
+            
+            {/* {features.map((items, index) => {
+              return (
+                <>
+                  {items.map((subItems, sIndex) => {
+                    return <li> {subItems} </li>;
+                  })} 
+                </>
+            );
+            })} */}
 
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
@@ -71,16 +85,16 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Algebra 1
+                    {/* {features.feature[0][0]} */}
                     </h4>
                   <p className="m-0 text-sm">
-                  This is an introductory Algebra course covering the topics basic variable equations and other algebra 1 topics. We incorporate these skills into examples from various math competitions such as Math Olympiad, and Math Kangaroo. This course is intended for students in <b>elementary school</b>. 
-                    </p>
+                  {/* {features.feature[0][1]} */}
+                  </p>
                 </div>
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+            {/* <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -93,14 +107,13 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Algebra 2
+                    {features.feature[1][0]}
                     </h4>
                   <p className="m-0 text-sm">
-                  This is an advanced Algebra course covering tropics on more complex equations such as quadratic equations, and trigonometry. We will incorporate these skills to higher level math competitions such as the AMC 8 and Math Olympiad. This course is intended for students in <b>middle school</b>. 
-                    </p>
+                  {features.feature[1][1]}</p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
@@ -124,7 +137,7 @@ const FeaturesTiles = ({
               </div>
             </div> */}
 
-            <div className="tiles-item reveal-from-bottom">
+            {/* <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -137,14 +150,13 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    AMC 8
+                    {features.feature[2][0]}
                     </h4>
                   <p className="m-0 text-sm">
-                  This course is designed to prepare students taking the AMC 8 exam. Using many skills, students will go over multiple practice exams with detailed instruction on every problem. We will cover math topics, tips, and tricks on how to tackle this difficult exam. This is taught by a former student who scored 22 out of 25 on the exam. This course is intended for students in <b>middle school</b>. 
-                    </p>
+                  {features.feature[2][1]}</p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
@@ -167,7 +179,6 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div>
-
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">

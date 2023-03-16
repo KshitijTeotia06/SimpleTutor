@@ -3,6 +3,11 @@ import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
+import Kronos from "../src/views/Kronos";
+import Poseidon from "../src/views/Poseidon";
+import Artemis from "../src/views/Artemis";
+import Athena from "../src/views/Athena";
+import Prototypes from "../src/views/Prototypes";
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -36,7 +41,12 @@ const App = () => {
       ref={childRef}
       children={() => (
         <Switch>
-          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+                    <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+         <AppRoute exact path="/Prototypes" component={Prototypes} layout={LayoutDefault} />
+          <AppRoute exact path="/Artemis" component={Artemis} layout={LayoutDefault} />
+          <AppRoute exact path="/Kronos" component={Kronos} layout={LayoutDefault} />
+          <AppRoute exact path="/Poseidon" component={Poseidon} layout={LayoutDefault} />
+          <AppRoute exact path="/Athena" component={Athena} layout={LayoutDefault} /> 
         </Switch>
       )} />
   );

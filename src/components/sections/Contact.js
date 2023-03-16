@@ -46,7 +46,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'Contact Us',
-    paragraph: 'Email us at simpletutornp@gmail.com'
+    paragraph: 'Email us at evhs.robotics2854@gmail.com'
   };
 
   return (
@@ -56,8 +56,8 @@ const Testimonial = ({
         className={outerClasses}>
         <div className="container" id = "contact">
             <div className={innerClasses}>
-            <SectionHeader data={sectionHeader} className="center-content" />
-            <div className={tilesClasses}>
+            <SectionHeader pcolor = {"white"} data={sectionHeader} className="center-content" />
+              <div className={tilesClasses}>
             </div>
             </div>
         </div>

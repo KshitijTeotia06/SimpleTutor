@@ -17,6 +17,7 @@ const defaultProps = {
 }
 
 const SectionHeader = ({
+  pcolor,
   className,
   data,
   children,
@@ -30,7 +31,10 @@ const SectionHeader = ({
   );
 
   const Component = tag;
-
+  //#9CA9B3
+  if(pcolor == undefined){
+    pcolor = "#9CA9B3";
+  }
   return (
     <>
       {(data.title || data.paragraph) &&
@@ -48,7 +52,7 @@ const SectionHeader = ({
                 )}>{data.title}</Component>
             }
             {data.paragraph &&
-              <p className="m-0">{data.paragraph}</p>
+              <p style={{ color: pcolor }}className="m-0">{data.paragraph}</p>
             }
           </div>
         </div>
