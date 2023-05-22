@@ -882,7 +882,7 @@
                                 <div class="relative flex flex-col items-start border-2 border-gray-200 rounded bg-white z-10" x-ref="testimonials" id = "testim">
 
                                     <!-- Alpine.js template for testimonials: https://github.com/alpinejs/alpine#x-for -->
-                                    <template x-for="(item, index) in items" :key="index">
+                                    <template x-for="(item, index) in items" :key="index" id = "testi">
                                         <div
                                             x-show="active === index"
                                             class="w-full text-center px-12 py-8 pt-20 mx-4 md:mx-0"
