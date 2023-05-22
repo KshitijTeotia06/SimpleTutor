@@ -19,7 +19,7 @@ body {
 
 
 
-@media (max-width: 767px) { /* Mobile devices */
+@media (max-width: 300px) { /* Mobile devices */
   #fullWorld {
     transform: scale(0.7);
   }
