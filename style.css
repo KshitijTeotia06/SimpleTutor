@@ -9,6 +9,44 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
+html {
+  /* height: 100%; */
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+
+@media (max-width: 767px) { /* Mobile devices */
+  #fullWorld {
+    transform: scale(0.7);
+  }
+  #testim {
+    transform: scale(0.7);
+  }
+  body{
+    transform: scale(0.9);
+    transform-origin: top left;
+    width: 111.1111%; /* (1 / 0.9) * 100% = 111.1111% */
+    height: 111.1111%; /*(1 / 0.9) * 100% = 111.1111%*/
+    overflow: auto;
+  }
+}
+
+@media (min-width: 768px) { /* Laptops and larger screens */
+  #fullWorld {
+    transform: scale(1);
+  }
+  #testim {
+    transform: scale(1);
+  }
+  body{
+    transform: scale(1);
+  }
+}
+
+
+
 *,
 ::before,
 ::after {
@@ -58,6 +96,7 @@ html {
 
 body {
   margin: 0;
+  /* transform: scale(90%); */
   /* 1 */
   line-height: inherit;
   /* 2 */
