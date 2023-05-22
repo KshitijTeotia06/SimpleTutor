@@ -13,6 +13,22 @@
   font-size: medium;
 }
 
+#typewriter{font-size: 80px}
+
+@media only screen and (max-width: 767px) { /* Adjust the max-width value as needed */
+  #globeDiv {
+    transform: scale(0.75);
+    transform-origin: center center;
+  }
+}
+
+@media only screen and (max-width: 767px) { /* Adjust the max-width value as needed */
+  #testimon {
+    transform: scale(0.9);
+    transform-origin: center center;
+  }
+}
+
 *,
 ::before,
 ::after {
