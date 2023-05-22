@@ -9,22 +9,6 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
-#typewriter{font-size: 80px}
-
-@media only screen and (max-width: 500px) { /* Adjust the max-width value as needed */
-  #globeDiv {
-    transform: scale(0.6);
-    transform-origin: center center;
-  }
-}
-
-@media only screen and (max-width: 500px) { /* Adjust the max-width value as needed */
-  #testimon {
-    transform: scale(0.8);
-    transform-origin: center center;
-  }
-}
-
 *,
 ::before,
 ::after {
