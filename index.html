@@ -477,19 +477,19 @@
                                         count1++;
                                         counterElement1.textContent = count1;
                                         if (count1 >= 1052) clearInterval(counterInterval1);
-                                    }, 10);
+                                    }, 0.1);
                             
                                     counterInterval2 = setInterval(function() {
                                         count2++;
                                         counterElement2.textContent = count2;
                                         if (count2 >= 12) clearInterval(counterInterval2);
-                                    }, 500);
+                                    }, 150);
                             
                                     counterInterval3 = setInterval(function() {
                                         count3++;
                                         counterElement3.textContent = count3;
                                         if (count3 >= 8) clearInterval(counterInterval3);
-                                    }, 800);
+                                    }, 300);
                                 }
                             
                                 var observer = new IntersectionObserver(function(entries, observer) {
